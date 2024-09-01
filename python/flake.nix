@@ -16,6 +16,7 @@
 
       devShells = forAllSystems (system: {
         default = pkgs.${system}.mkShell {
+          name = "python";
           buildInputs = [ pkgs.${system}.python310 ];
         };
       });
