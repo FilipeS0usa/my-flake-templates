@@ -13,8 +13,8 @@
         '';
       };
 
-      defaultTemplate = self.templates.python;
-
     };
+
+    defaultTemplate = self.templates.python;
   };
 }
